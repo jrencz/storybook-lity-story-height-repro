@@ -1,0 +1,25 @@
+{
+  "name": "story-height-repro",
+  "private": true,
+  "description": "Repository to show problem solved by https://github.com/storybookjs/storybook/pull/21174",
+  "license": "MIT",
+  "author": "Jarek Rencz <jaroslaw@rencz.pl>",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "storybook dev -p 6006 --no-open",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "7.0.0-beta.53",
+    "@storybook/addon-links": "7.0.0-beta.53",
+    "@storybook/web-components": "7.0.0-beta.53",
+    "@storybook/web-components-vite": "7.0.0-beta.53",
+    "storybook": "7.0.0-beta.53",
+    "typescript": "^4.9.5"
+  }
+}
