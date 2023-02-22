@@ -46,7 +46,7 @@ attempts to fix.
         npm ci
         ```
     4. Replace `./node_modules/@storybook/components/dist` with the copied one
-       (`index.js`, `index.mjs` and ìndex.d.ts` will be replaced)
+       (`index.js`, `index.mjs` and `index.d.ts` will be replaced)
 
     4. run again
        ```bash
