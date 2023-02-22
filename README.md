@@ -54,3 +54,5 @@ attempts to fix.
        ```
        
        - Observe problem is gone: all lines are shown
+       - You may play with both Zoom in/Zoom out controls of Story,
+         and with component's own button to change size to confirm
